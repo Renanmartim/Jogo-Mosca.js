@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(bg.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.vitoria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+}
+.botao button {
+    padding: 8px;
+    width: 30%;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    cursor: pointer;
+}

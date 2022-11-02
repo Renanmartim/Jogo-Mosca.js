@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    cursor: url(mata_mosca.png) 30 30, auto;
+}
+
+body {
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botao {
+    display: flex;
+    justify-content: center;
+}
+.botao button {
+    padding: 8px;
+    width: 30%;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+

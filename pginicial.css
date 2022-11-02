@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    cursor: url(mata_mosca.png) 30 30, auto;
+}
+
+body {
+    background-image: url(bg.jpg);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center ;
+    align-items: center ;
+}
+
+.button {
+    display: flex;
+    justify-content: center ;
+    align-items: center ;
+}
+
+.button button {
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    width: 20%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.opcoes {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center ;
+    align-items: center ;
+}
+
+.opcoes select {
+    padding: 05px;
+    text-align: center;
+}
